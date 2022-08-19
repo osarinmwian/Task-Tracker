@@ -8,34 +8,34 @@ const TaskBarScreen = () => {
     <View style={{flexDirection:"row", 
     justifyContent:"space-between", marginTop:15}}>
         <View>
-        <Image source={require("../assets/component1.png")}
+        <Image source={require("../assets/icon1.png")}
          style={{ resizeMode: "cover",
          marginLeft:10, marginTop:10}}/>
         <Text style={{marginTop:1,
           fontSize:12, color:"#454240"}}>Task1</Text>
         </View>
         <View>
-        <Image source={require("../assets/component2.png")} 
+        <Image source={require("../assets/icon2.png")} 
         style={{ resizeMode: "cover",
         marginLeft:10, marginTop:10}}/>
         <Text style={{marginTop:1, 
           fontSize:12, color:"#454240"}}>Task2</Text>
         </View>
         <View>
-        <Image source={require("../assets/component3.png")} 
+        <Image source={require("../assets/icon3.png")} 
         style={{ resizeMode: "cover",
         marginLeft:10, marginTop:10}}/>
         <Text style={{marginTop:1, 
           fontSize:12,color:"#454240"}}>Task3</Text>
         </View>
         <View>
-        <Image source={require("../assets/component4.png")} 
+        <Image source={require("../assets/icon4.png")} 
         style={{ resizeMode: "cover",marginLeft:10, marginTop:10}}/>
         <Text style={{marginTop:2,fontSize:12, 
           color:"#454240"}}>Task4</Text>
         </View>
         <View>
-        <Image source={require("../assets/component5.png")} 
+        <Image source={require("../assets/icon5.png")} 
         style={{ resizeMode: "cover",marginLeft:10, marginTop:10}}/>
         <Text style={{marginTop:1, fontSize:12,
            color:"#454240"}}>Task5</Text>
@@ -43,7 +43,7 @@ const TaskBarScreen = () => {
         <View >
             <View style={{backgroundColor:"#d2f7dc", 
             borderRadius:20,width:40}}>
-            <Image source={require("../assets/component6.png")} 
+            <Image source={require("../assets/icon6.png")} 
         style={{ resizeMode: "cover",
         marginLeft:15,marginTop:14}}/> 
             </View>

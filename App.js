@@ -1,4 +1,4 @@
-import { View, SafeAreaView } from 'react-native';
+import { SafeAreaView } from 'react-native';
 import HomeScreen from './screen/HomeScreen';
 import BottomNavigator from './screen/BottomNavigation';
 import { NavigationContainer } from '@react-navigation/native';
